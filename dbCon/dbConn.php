@@ -3,17 +3,12 @@
 #Production Conn
 
 
-$username = "lila_das";
-$password = "BYrWnKzNncxx3UfK";
-$database="Lila_Zantra_Kunja";
+$username = "'<redacted>'; //ASK for ENV
+$password = '<redacted>'; //ASK for ENV
+$database= '<redacted>'; //ASK for ENV
 
 
-#TestDomain Conn
-/*
-$username = "aryan_bnc";
-$password = "Mc8qm3~5";
-$database="bcollege_test";
-*/
+
 
 try {
     $coreConn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);    
